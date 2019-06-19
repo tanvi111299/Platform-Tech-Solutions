@@ -1,0 +1,263 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+/* Loader */
+
+.no-js #loader {
+  display: none;
+}
+
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("../images/loader-128x/Preloader_6.gif") center no-repeat #ddd;
+}
+
+/* PROGRESS BAR */
+/* Style the header: fixed position (always stay at the top) */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+}
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #343a40;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #399fd2;
+  width: 0%;
+}
+
+/* .navbar {
+  font-size: 20px;
+  margin-bottom: 30px;
+  height: 100px;
+  vertical-align: middle;
+}
+.navbar img {
+  border-radius: 50%;
+}
+.nav-item {
+  margin-right: 10px;
+}
+.brand-styling {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+.brand-styling .nav-item {
+  margin-right: 35px;
+} */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #343a40;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 15px 10px;
+}
+
+.topnav .navitem {
+  padding-top: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav .navitem:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+}
+
+/* Add an active class to highlight the current page */
+/* .active {
+  background-color: black;
+  color: #343a40;
+} */
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+.imgg {
+  border-radius: 50%;
+}
+
+.brand-styling {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+.navitem {
+  color: #fff;
+  transition: .3s;
+}
+
+.navv:hover .navitem {
+  opacity: .7;
+  filter: blur(2px);
+}
+
+.navv .navitem:hover {
+  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background-color: black;
+  z-index: 1;
+  opacity: 1;
+  filter: blur(0px);
+  color: #fff;
+}
+
+.navv .navitem:focus {
+  color: #FFF;
+}
+
+/* When the screen is less than 815 pixels wide, hide all links, except for the first one ("Logo"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 815px) {
+  .topnav .navitem {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 815px) {
+  .topnav.responsived {position: relative;}
+  .topnav.responsived a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsived a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.foot {
+  background-color: #343a40;
+  color: #FFF;
+  padding: 30px 0px;
+  margin-top: 10px;
+}
+
+#contact {
+  text-align: center;
+  border-left: 2px solid white;
+  margin-right: 0px;
+}
+
+.contact-heading1 {
+  padding-bottom: 30px;
+  color: #FFF;
+}
+
+.contact-heading5 {
+  color: #FFF;
+  font-size: 1.5em;
+}
+
+.contact-p {
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#contact i {
+  padding: 15px;
+  font-size: 4em;
+}
+
+.fa-facebook-square:hover {
+  color: #3C5A99;
+}
+
+.fa-instagram:hover {
+  color: #C13584;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-linkedin:hover {
+  color: #0077B5;
+}
+
+.fa-github-square:hover {
+  color: #6cc644;
+}
+
+footer {
+  background-color: #343a40;
+  color: #FFF;
+  text-align: center;
+  height: 50px;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 992px) {
+  #contact {
+    border-left: none;
+    margin-top: 60px;
+  }
+  #contact i {
+    font-size: 3em;
+  }
+  .contact-heading1 {
+    padding-bottom: 10px;
+  }
+  .contact-p {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #contact {
+    border-left: none;
+  }
+}
+
+.topnav,
+.foot {
+  font-family: 'Poppins', sans-serif;
+}

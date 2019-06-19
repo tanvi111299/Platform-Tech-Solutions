@@ -1,0 +1,200 @@
+.briefing{
+    padding: 15px;
+    height: 100%;
+    margin-left:0;
+    margin-right:0;
+    width:100%;
+    overflow: hidden;
+    font-size:183%;
+    border-bottom:2px solid #fff;
+
+    .briefing-content{
+    position: relative;
+    float: left;
+    
+    p{
+    color: #fff;
+    font-weight:200;
+    font-family:$primary-font;
+    }
+  }
+    
+    .briefing-content-right{
+      position: relative;
+    float: right;
+    
+    p{
+      color: #fff;
+      font-weight:200;
+      font-family:$primary-font;
+      }
+      }
+    
+    }
+    
+    .briefing-media{
+    position:relative;
+    margin-bottom: 0px;
+    width: 836px;
+    height: 200px;
+    
+    img{
+      float:right;
+    }
+    a{
+      position: absolute;
+      top: 102%;
+      left: 62%;
+      text-align: center;
+     cursor:pointer;
+    
+    }
+    .btn:hover{
+      cursor: pointer;
+    }
+    .btn{
+    width:400px;
+    font-size: 25px;
+    background-color: #fff;
+    clip-path:polygon(0 0,100% 0,100% 100%,25% 100%);
+    margin-right: 10px;
+    border: 2px solid $secondary;
+    color : #333;
+    }
+    }
+    
+    .briefing-media-left{
+      position:relative;
+      margin-bottom: 0px;
+      width: 836px;
+      height: 200px;
+
+      img{
+        float:right;
+      }
+      a{
+        position: absolute;
+        top: 102%;
+        left: 62%;
+        text-align: center;
+       cursor:pointer;
+      
+      }
+      .btn:hover{
+        cursor: pointer;
+      }
+      .btn{
+        width:400px;
+        font-size: 25px;
+        background-color: #fff;
+        // clip-path:polygon(0 0,100% 0,100% 100%,25% 100%);
+        
+        margin-right: 10px;
+        border: 2px solid $secondary;
+        color : #333;
+        }
+    }
+    
+    .briefing-header{
+    margin-top: 15px;
+    height: 80px;
+    margin-bottom:15px;
+    height: 120px;
+    h1{
+    font-family: $secondary-font;
+    color: #fff;
+    font-size:35px;
+    text-align: center;
+    
+    }
+    h1:hover{
+    cursor: pointer;
+    }
+    }
+    i{
+    transform: scale(3);
+    margin-left:20px;
+    }
+    div:nth-child(6){
+    animation-delay:.2s;
+      }
+    div:nth-child(7){
+     animation-delay:.4s;
+    }
+
+    .briefing-media .img-fluid{
+      width: 358px;
+      height: 200px;
+    }
+    .technologies{
+    position: relative;
+    overflow: visible;
+    text-align: center;
+    font-size:25px;
+    padding-top: 19px;
+    color:$tertiary;
+    bottom:15px;
+    animation: jump 1.5s infinite ease-in-out;
+    margin-bottom: 50px;
+    }
+    .heading{
+      text-align: center;
+      font-size:25px;
+      padding-top: 19px;
+      color:$tertiary ;
+      margin-bottom:36px;
+      margin-top:124px;
+      font-family: $secondary-font;
+    }
+    @keyframes jump{
+      0%{
+      bottom: 0;
+    
+      }
+      50%{
+        bottom:27px;
+      }
+      100%{
+        bottom:0;
+    }
+      }
+    #YANTRIX{
+    background-image: linear-gradient(to right, #0d0b0b, #6d6860);
+    // background-size: cover;
+    // background-attachment: fixed;
+    margin-bottom:36px;
+    
+    }
+    #ECELL{
+    background:url("2.jpg");
+    // background-size: cover;
+    // background-attachment: fixed;
+    }
+    #MLA_TRACK{
+      background-image: linear-gradient(to right, #0d0b0b, #6d6860);
+      // background-size: cover;
+      // background-attachment: fixed;
+    }
+    #MUN{
+      background:url("4.jpg");
+      // background-size: cover;
+      // background-attachment: fixed;
+    
+    }
+    #AEMWIA{
+      background-image: linear-gradient(to right, #0d0b0b, #6d6860);
+      // background-size: cover;
+      // background-attachment: fixed;
+    
+    }
+    #LADOOMATRIMONIAL{
+
+    }
+    #TIPTOPTUTR{
+      background-image: linear-gradient(to right, #0d0b0b, #6d6860);
+    }
+    * {
+      box-sizing: border-box;
+    }
+    
+    

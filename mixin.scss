@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+ @mixin neontext(){
+position: absolute;
+left:50;
+transform: translateX(-50%);
+/* height:200p-x; */
+/* width:200px; */
+}
+@mixin details(){
+  float: right;
+  height: 500px;
+  width: 500px;
+}
